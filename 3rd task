@@ -1,0 +1,9 @@
+i=input("Enter a String?")
+d={}
+for i in i:
+    if i in d:
+        d[i]+=1
+    else:
+        d[i]=1
+for i,j in d.items():
+    print(i,' = ',j)
